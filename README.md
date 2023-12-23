@@ -8,16 +8,23 @@ Tecnologies Used : Laravel 8, Mysql, Php- 7.3, HTML, CSS, Bootstrap Framework
 first clone the project
 
 import the database file or run php artisan migrate
+
 database file exist in root directry
 
 database configration in .env file
 
-// DB_CONNECTION=mysql
-// DB_HOST=127.0.0.1
-// DB_PORT=3306
-// DB_DATABASE=quote_project
-// DB_USERNAME=root
-// DB_PASSWORD=
+
+DB_CONNECTION=mysql
+
+DB_HOST=127.0.0.1
+
+DB_PORT=3306
+
+DB_DATABASE=quote_project
+
+DB_USERNAME=root
+
+DB_PASSWORD=
 
 you can change configration according your database
 
@@ -25,17 +32,20 @@ you can change configration according your database
 Start the development server: php artisan serve
 
 if any error accur 
+
 Install dependencies, run command: composer install or composer dump-autoload
 
 hit url on the browser: http://localhost:8000/
 
 ## Login Crediential
 Email = shahzad@gmail.com
+
 password = 12345678
 
 You can also Register new user 
 
 run command for check Test Cases
+
 php artisan test
 
 
