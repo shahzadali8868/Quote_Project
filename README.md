@@ -1,18 +1,23 @@
 ## About Project
-Project :Fatch 5 Quotes And show with Authentication Page
+Project :Show Random 5 Quotes with Authentication Page Using API
+
 
 Tecnologies Used : Laravel 8, Mysql, Php- 7.3, HTML, CSS, Bootstrap Framework
 
-First import the database 
+## Steps for use this Project
+first clone the project
+
+import the database file or run php artisan migrate
+database file exist in root directry
 
 database configration in .env file
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=quote_project
-DB_USERNAME=root
-DB_PASSWORD=
+// DB_CONNECTION=mysql
+// DB_HOST=127.0.0.1
+// DB_PORT=3306
+// DB_DATABASE=quote_project
+// DB_USERNAME=root
+// DB_PASSWORD=
 
 you can change configration according your database
 
@@ -24,20 +29,15 @@ Install dependencies, run command: composer install or composer dump-autoload
 
 hit url on the browser: http://localhost:8000/
 
+## Login Crediential
+Email = shahzad@gmail.com
+password = 12345678
 
+You can also Register new user 
 
-## Learning Laravel
+run command for check Test Cases
+php artisan test
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
 ## Security Vulnerabilities
 
