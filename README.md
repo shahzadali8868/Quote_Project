@@ -5,9 +5,18 @@ Project :Show Random 5 Quotes with Authentication Page Using API
 Tecnologies Used : Laravel 8, Mysql, Php- 7.3, HTML, CSS, Bootstrap Framework
 
 ## Steps for use this Project
-first clone the project
+first clone the project run command
 
-import the database file or run php artisan migrate
+# git clone https://github.com/shahzadali8868/Quote_Project.git 
+
+or download zip file from reposetry , Open in any editor and go to terminal 
+
+after that Run Command
+# composer install
+
+import the database file "quote_project"(same database name configration in .env file) 
+
+or create database "quote_project", run #php artisan migrate
 
 database file exist in root directry
 
@@ -29,7 +38,9 @@ DB_PASSWORD=
 you can change configration according your database
 
 
-Start the development server: php artisan serve
+Start the development server: 
+
+#php artisan serve
 
 if any error accur 
 
