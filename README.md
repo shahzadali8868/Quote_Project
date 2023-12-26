@@ -7,12 +7,13 @@ Tecnologies Used : Laravel 8, Mysql, Php- 7.3, HTML, CSS, Bootstrap Framework
 ## Steps for use this Project
 first clone the project run command
 
-# git clone https://github.com/shahzadali8868/Quote_Project.git 
+//git clone https://github.com/shahzadali8868/Quote_Project.git 
 
 or download zip file from reposetry , Open in any editor and go to terminal 
 
 after that Run Command
-# composer install
+
+//composer install
 
 import the database file "quote_project"(same database name configration in .env file) 
 
@@ -57,7 +58,7 @@ You can also Register new user
 
 run command for check Test Cases
 
-php artisan test
+#php artisan test
 
 
 ## Security Vulnerabilities
