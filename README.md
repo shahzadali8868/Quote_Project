@@ -2,7 +2,7 @@
 Project :Show Random 5 Quotes with Authentication Page Using API
 
 
-Tecnologies Used : Laravel 8, Mysql, Php- 7.3, HTML, CSS, Bootstrap Framework
+Tecnologies Used : Laravel 9, Mysql, Php- 8.0, HTML, CSS, Bootstrap Framework
 
 ## Steps for use this Project
 first clone the project run command
@@ -13,7 +13,9 @@ or download zip file from reposetry , Open in any editor and go to terminal
 
 after that Run Command
 
-//composer install
+//composer install 
+
+//composer update 
 
 import the database file "quote_project"(same database name configration in .env file) 
 
