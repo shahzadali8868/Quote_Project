@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,16 +15,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
+
+
 Route::get('/', function () {
     return view('welcome');
 });
 
 
 
-Auth::routes();
+
+Route::any('/login', [AdminController::class,'index'])->name('login');
+Route::post('/logout', [AdminController::class,'logout'])->name('logout');
+
+
 
 Route::middleware(['auth'])->group(function () {
 
-    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+    Route::any('/change_password', [AdminController::class,'passwordChange'])->name('change_password');
 
 });

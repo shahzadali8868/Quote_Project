@@ -56,7 +56,7 @@ Email = shahzad@gmail.com
 
 password = 12345678
 
-You can also Register new user 
+
 
 run command for check Test Cases
 
