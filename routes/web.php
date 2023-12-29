@@ -26,16 +26,17 @@ Route::get('/', function () {
 
 
 
+Route::middleware(['guest'])->group(function () {
+    Route::any('/login', [AdminController::class,'index'])->name('login');
+    Route::any('/register', [AdminController::class,'register'])->name('register');
 
-Route::any('/login', [AdminController::class,'index'])->name('login');
-Route::post('/logout', [AdminController::class,'logout'])->name('logout');
-
-
+});
 
 Route::middleware(['auth'])->group(function () {
 
     Route::get('/home', [HomeController::class, 'index'])->name('home');
 
     Route::any('/change_password', [AdminController::class,'passwordChange'])->name('change_password');
-
+    Route::post('/logout', [AdminController::class,'logout'])->name('logout');
+    
 });
